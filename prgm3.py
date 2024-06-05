@@ -15,7 +15,7 @@ def get_response(user_input):
             return responses[keyword]
     
     return responses['default']
-helo
+    
 print("Welcome to the simple chatbot! Type 'bye' to exit.")
 while True:
     user_input = input("You: ")
